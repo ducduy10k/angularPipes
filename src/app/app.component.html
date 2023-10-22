@@ -1,0 +1,8 @@
+<!-- <ng-container *ngIf="data$ | async as data">
+  <div *ngFor="let item of data | topRecord : 3; let i = index">
+    {{ i + " " + item.title }}
+  </div>
+</ng-container> -->
+<div *ngFor="let i of arr | topRecord : 3">
+  {{ i }}
+</div>
